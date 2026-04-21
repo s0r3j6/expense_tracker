@@ -40,14 +40,14 @@ Run the app:
 streamlit run app.py
 
 ## **Screenshots:**
-Main UI.png
-Table view.png
-Charts.png
+- Main UI.png
+- Table view.png
+- Charts.png
 
 ## **Future Improvements:**
-Monthly expense analysis
-User login system
-Data filtering options
+- Monthly expense analysis
+- User login system
+- Data filtering options
 
 ## **Author:**
 **Shreeja Narayana Kadooru**
