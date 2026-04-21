@@ -22,30 +22,33 @@ expense-tracker/
 │
 ├── app.py # Streamlit UI
 ├── expense_tracker.py # Backend logic
-├── requirements.txt # Dependencies
+├── Requirements.txt # Dependencies
 ├── expenses.csv # Data file
 └── README.md
 
-## How to Run Locally
+## **How to Run Locally**
 
-1. Clone the repository:
-```bash
+Clone the repository:
 git clone https://github.com/s0r3j6/expense_tracker
-2. Navigate to project folder:
-   cd expense_tracker
-3. Install dependencies:
-   pip install -r requirements.txt
-4. Run the app:
-   streamlit run app.py
+
+Navigate to project folder:
+cd expense_tracker
+
+Install dependencies:
+pip install -r Requirements.txt
+
+Run the app:
+streamlit run app.py
 
 ## **Screenshots:**
-
 Main UI.png
 Table view.png
 Charts.png
 
-Future Improvements:
+## **Future Improvements:**
 Monthly expense analysis
 User login system
 Data filtering options
 
+## **Author:**
+**Shreeja Narayana Kadooru**
