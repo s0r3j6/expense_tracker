@@ -1,4 +1,4 @@
-# 💰 Personal Expense Tracker
+# Personal Expense Tracker
 
 ## Overview
 This is a web-based Expense Tracker application built using Python and Streamlit. It allows users to manage their daily expenses, view spending, and analyze data using charts.
@@ -38,4 +38,14 @@ git clone https://github.com/s0r3j6/expense_tracker
 4. Run the app:
    streamlit run app.py
 
-Screenshots
+## **Screenshots:**
+
+Main UI.png
+Table view.png
+Charts.png
+
+Future Improvements:
+Monthly expense analysis
+User login system
+Data filtering options
+
