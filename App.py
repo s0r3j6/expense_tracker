@@ -1,6 +1,7 @@
 import streamlit as st
 from datetime import datetime
 import expense_tracker as et
+import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="EXPENSE TRACKER",layout="centered")
 
@@ -60,7 +61,13 @@ if data is not None:
              st.bar_chart(data)
         with col2:
              st.subheader("Pie chart")
-             st.pyplot(data.plot.pie(autopct='%1.1f%%').figure)
+             fig, ax = plt.subplots()
+             ax.pie(
+                data.values.flatten(),
+                labels=data.index,
+                autopct='%1.1f%%'
+                )
+             st.pyplot(fig)
 else:
         st.warning("No data to visualize")
 
